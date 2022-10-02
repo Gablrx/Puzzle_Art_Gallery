@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+
+    <link rel="stylesheet" href="puzzle.css">
+</head>
+
+<body>
+    <main>
+        <img id="gallery" src="imagesPuzzle/emptyWall_1920x1080.png" alt="">
+
+        <div id="collection">
+            <div id="vasarely" class="painting"></div>
+            <div id="mondrian" class="painting"></div>
+            <div id="albers" class="painting"></div>
+            <div id="loewensberg" class="painting"></div>
+
+        </div>
+
+
+        <section>
+            <!-- Grille de 3 lignes * 3 col -->
+            <div id="table">
+                <div id="row1">
+                    <div id="cell11" class="cell block1"></div>
+                    <div id="cell12" class="cell block2"></div>
+                    <div id="cell13" class="cell block3"></div>
+                </div>
+                <div id="row2">
+                    <div id="cell21" class="cell block4"></div>
+                    <div id="cell22" class="cell block5"></div>
+                    <div id="cell23" class="cell block6"></div>
+                </div>
+                <div id="row3">
+                    <div id="cell31" class="cell block7"></div>
+                    <div id="cell32" class="cell block8"></div>
+                    <div id="cell33" class="cell block9"></div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <h1>Gather some expensive pieces of modern art</h1>
+
+        <div id="cartel">
+            <h2>Victor Vasarely (1906-1997)</h2>
+            <h3><em>Pavo II</em></h3>
+            <p>1979 <br>
+                Acrylic on plywood <br>
+                60 x 60cm <br><br>
+                Vasarely Múzeum, Budapest <br>
+                © Victor Vasarely, VEGAP, Madrid, 2018
+            </p>
+        </div>
+
+        <div id="shuffleBtn">
+            <p>resolveIt()</p>
+        </div>
+
+    </main>
+
+
+
+    <script src="puzzle.js"></script>
+
+</body>
+
+</html>
